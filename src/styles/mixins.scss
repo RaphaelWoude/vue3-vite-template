@@ -1,0 +1,14 @@
+@import '_col-lg';
+@import '_col-md';
+@import '_col-sm';
+@import '_col-xl';
+@import '_col';
+
+@mixin row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@function getColumnWidth($size) {
+    @return 8.33% * $size;
+}

@@ -1,0 +1,71 @@
+@mixin col-lg-12 {
+    @media (min-width: $large) {
+        width: getColumnWidth(12);
+    }
+}
+
+@mixin col-lg-11 {
+    @media (min-width: $large) {
+        width: getColumnWidth(11);
+    }
+}
+
+@mixin col-lg-10 {
+    @media (min-width: $large) {
+        width: getColumnWidth(10);
+    }
+}
+
+@mixin col-lg-9 {
+    @media (min-width: $large) {
+        width: getColumnWidth(9);
+    }
+}
+
+@mixin col-sm-8 {
+    @media (min-width: $large) {
+        width: getColumnWidth(8);
+    }
+}
+
+@mixin col-lg-7 {
+    @media (min-width: $large) {
+        width: getColumnWidth(7);
+    }
+}
+
+@mixin col-lg-6 {
+    @media (min-width: $large) {
+        width: getColumnWidth(6);
+    }
+}
+
+@mixin col-lg-5 {
+    @media (min-width: $large) {
+        width: getColumnWidth(5);
+    }
+}
+
+@mixin col-lg-4 {
+    @media (min-width: $large) {
+        width: getColumnWidth(4);
+    }
+}
+
+@mixin col-lg-3 {
+    @media (min-width: $large) {
+        width: getColumnWidth(3);
+    }
+}
+
+@mixin col-lg-2 {
+    @media (min-width: $large) {
+        width: getColumnWidth(2);
+    }
+}
+
+@mixin col-lg-1 {
+    @media (min-width: $large) {
+        width: getColumnWidth(1);
+    }
+}

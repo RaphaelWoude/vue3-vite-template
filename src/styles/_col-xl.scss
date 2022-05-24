@@ -1,0 +1,71 @@
+@mixin col-xl-12 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(12);
+    }
+}
+
+@mixin col-xl-11 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(11);
+    }
+}
+
+@mixin col-xl-10 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(10);
+    }
+}
+
+@mixin col-xl-9 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(9);
+    }
+}
+
+@mixin col-xl-8 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(8);
+    }
+}
+
+@mixin col-xl-7 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(7);
+    }
+}
+
+@mixin col-xl-6 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(6);
+    }
+}
+
+@mixin col-xl-5 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(5);
+    }
+}
+
+@mixin col-xl-4 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(4);
+    }
+}
+
+@mixin col-xl-3 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(3);
+    }
+}
+
+@mixin col-xl-2 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(2);
+    }
+}
+
+@mixin col-xl-1 {
+    @media (min-width: $extra-large) {
+        width: getColumnWidth(1);
+    }
+}
